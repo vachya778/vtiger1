@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22183" started-at="2023-07-14T11:10:34 IST" finished-at="2023-07-14T11:10:56 IST">
+  <suite name="Suite" duration-ms="120132" started-at="2023-07-14T18:34:12 IST" finished-at="2023-07-14T18:36:13 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22183" started-at="2023-07-14T11:10:34 IST" finished-at="2023-07-14T11:10:56 IST">
-      <class name="testscript.Tc8Test">
-        <test-method status="PASS" signature="LanchingBrowser()[pri:0, instance:testscript.Tc8Test@ed9d034]" name="LanchingBrowser" is-config="true" duration-ms="6002" started-at="2023-07-14T11:10:34 IST" finished-at="2023-07-14T11:10:40 IST">
+    <test name="Test" duration-ms="120132" started-at="2023-07-14T18:34:12 IST" finished-at="2023-07-14T18:36:13 IST">
+      <class name="testscript.Tc2Test">
+        <test-method status="PASS" signature="LanchingBrowser()[pri:0, instance:testscript.Tc2Test@11758f2a]" name="LanchingBrowser" is-config="true" duration-ms="8057" started-at="2023-07-14T18:35:42 IST" finished-at="2023-07-14T18:35:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LanchingBrowser -->
-        <test-method status="PASS" signature="navigateingToApplication()[pri:0, instance:testscript.Tc8Test@ed9d034]" name="navigateingToApplication" is-config="true" duration-ms="4574" started-at="2023-07-14T11:10:40 IST" finished-at="2023-07-14T11:10:45 IST">
+        <test-method status="PASS" signature="navigateingToApplication()[pri:0, instance:testscript.Tc2Test@11758f2a]" name="navigateingToApplication" is-config="true" duration-ms="7526" started-at="2023-07-14T18:35:50 IST" finished-at="2023-07-14T18:35:57 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateingToApplication -->
-        <test-method status="PASS" signature="newEvent()[pri:0, instance:testscript.Tc8Test@ed9d034]" name="newEvent" duration-ms="10211" started-at="2023-07-14T11:10:45 IST" finished-at="2023-07-14T11:10:55 IST">
+        <test-method status="PASS" signature="createOrganizationWithMandateryField()[pri:0, instance:testscript.Tc2Test@11758f2a]" name="createOrganizationWithMandateryField" duration-ms="14590" started-at="2023-07-14T18:35:57 IST" finished-at="2023-07-14T18:36:12 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newEvent -->
-        <test-method status="PASS" signature="teardownTheBrowser()[pri:0, instance:testscript.Tc8Test@ed9d034]" name="teardownTheBrowser" is-config="true" duration-ms="1099" started-at="2023-07-14T11:10:55 IST" finished-at="2023-07-14T11:10:56 IST">
+        </test-method> <!-- createOrganizationWithMandateryField -->
+        <test-method status="PASS" signature="teardownTheBrowser()[pri:0, instance:testscript.Tc2Test@11758f2a]" name="teardownTheBrowser" is-config="true" duration-ms="868" started-at="2023-07-14T18:36:12 IST" finished-at="2023-07-14T18:36:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownTheBrowser -->
-      </class> <!-- testscript.Tc8Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testscript.Tc2Test -->
+      <class name="testscript.Tc1Test">
+        <test-method status="PASS" signature="LanchingBrowser()[pri:0, instance:testscript.Tc1Test@6121c9d6]" name="LanchingBrowser" is-config="true" duration-ms="55299" started-at="2023-07-14T18:34:13 IST" finished-at="2023-07-14T18:35:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanchingBrowser -->
+        <test-method status="PASS" signature="navigateingToApplication()[pri:0, instance:testscript.Tc1Test@6121c9d6]" name="navigateingToApplication" is-config="true" duration-ms="12858" started-at="2023-07-14T18:35:08 IST" finished-at="2023-07-14T18:35:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateingToApplication -->
+        <test-method status="PASS" signature="createContactWithMandField()[pri:0, instance:testscript.Tc1Test@6121c9d6]" name="createContactWithMandField" duration-ms="19199" started-at="2023-07-14T18:35:21 IST" finished-at="2023-07-14T18:35:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithMandField -->
+        <test-method status="PASS" signature="teardownTheBrowser()[pri:0, instance:testscript.Tc1Test@6121c9d6]" name="teardownTheBrowser" is-config="true" duration-ms="1245" started-at="2023-07-14T18:35:40 IST" finished-at="2023-07-14T18:35:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTheBrowser -->
+      </class> <!-- testscript.Tc1Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
